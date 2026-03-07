@@ -1,0 +1,77 @@
+"jungle.forest"
+{
+	"dsp"	"5"
+
+	"playlooping"
+	{
+		"volume"		"0.06"
+		"pitch"		"90"
+		"wave"		"dz_junglety/ambient_jungle3.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"0.04"
+		"pitch"		"100"
+		"wave"		"dz_junglety/cicadas2.wav"
+	}
+	"playrandom"
+	{
+		"time"		"7,18"
+		"volume"	"0.05"
+		"pitch"		"90,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+	"playrandom"
+	{
+		"time"		"15,25"
+		"volume"	"0.05"
+		"pitch"		"90,110"
+		"position" "1"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+}
+
+"jungle.ocean"
+{
+	"dsp"	"5"
+
+	"playlooping"
+	{
+		"volume"		"0.10"
+		"pitch"		"90"
+		"wave"		"dz_junglety/ambient_ocean2.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"0.01"
+		"pitch"		"100"
+		"wave"		"dz_junglety/cicadas2.wav"
+	}
+	"playrandom"
+	{
+		"time"		"8,18"
+		"volume"	"0.17"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/creatures/seagull_idle1.wav"
+			"wave"	"ambient/creatures/seagull_idle2.wav"
+			"wave"	"ambient/creatures/seagull_idle3.wav"
+		}
+	}
+}
+

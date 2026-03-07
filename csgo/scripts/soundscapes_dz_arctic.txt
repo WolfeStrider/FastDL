@@ -1,0 +1,50 @@
+"arctic.outdoor"
+{
+	"dsp"	"5"
+	
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"		"90"
+		"wave"		"dz_arctic/wind_loop.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"15,33"
+		"volume"	"0.05"
+		"pitch"		"90,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/animal/bird3.wav"
+			"wave"	"ambient/animal/bird4.wav"
+			"wave"	"ambient/animal/bird5.wav"
+			"wave"	"ambient/animal/bird6.wav"
+			"wave"	"ambient/animal/bird7.wav"
+		}
+	}
+
+}
+
+"arctic.sea"
+{
+	"dsp"	"5"
+	
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"90"
+		"wave"		"dz_arctic/small_waves.wav"
+	}
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"90"
+		"wave"		"dz_arctic/calm_sea.wav"
+	}
+
+}
+
+

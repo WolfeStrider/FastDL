@@ -1,0 +1,54 @@
+"desert.ambient"
+{
+	"dsp"	"5"
+	
+	"playlooping"
+	{
+		"volume"		"0.27"
+		"pitch"		"100"
+		"wave"		"dz_severo/desert_ambient_loop.wav"
+	}
+	
+	
+	
+	"playrandom"
+	{
+		"time"		"8,18"
+		"volume"	"0.14"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/animal/crow.wav"
+			"wave"	"ambient/animal/crow_2.wav"
+			"wave"	"ambient/animal/crow_1.wav"
+		}
+	}
+}
+
+"desert.ocean"
+{
+	"dsp"	"5"
+	
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"90"
+		"wave"		"dz_severo/desert_ocean_loop.wav"
+	}	
+	
+	"playrandom"
+	{
+		"time"		"8,18"
+		"volume"	"0.14"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/animal/crow.wav"
+			"wave"	"ambient/animal/crow_2.wav"
+			"wave"	"ambient/animal/crow_1.wav"
+		}
+	}
+}
+
